@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FF79974BE6D62B96ABF8B59 /* Pods_MKJDemoPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A89E893E70A61C6271EEF6 /* Pods_MKJDemoPay.framework */; };
+		606A4BEC224DAFC9001E2C1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BEB224DAFC9001E2C1E /* AppDelegate.m */; };
+		606A4BEF224DAFC9001E2C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BEE224DAFC9001E2C1E /* ViewController.m */; };
+		606A4BF2224DAFC9001E2C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A4BF0224DAFC9001E2C1E /* Main.storyboard */; };
+		606A4BF4224DAFCB001E2C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606A4BF3224DAFCB001E2C1E /* Assets.xcassets */; };
+		606A4BF7224DAFCB001E2C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A4BF5224DAFCB001E2C1E /* LaunchScreen.storyboard */; };
+		606A4BFA224DAFCC001E2C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BF9224DAFCC001E2C1E /* main.m */; };
+		606A4C07224DB121001E2C1E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C06224DB121001E2C1E /* libc++.tbd */; };
+		606A4C09224DB128001E2C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C08224DB128001E2C1E /* Foundation.framework */; };
+		606A4C0B224DB12B001E2C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C0A224DB12B001E2C1E /* UIKit.framework */; };
+		606A4C0D224DB132001E2C1E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C0C224DB132001E2C1E /* libsqlite3.tbd */; };
+		606A4C0F224DB135001E2C1E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C0E224DB135001E2C1E /* libz.tbd */; };
+		606A4C11224DB13C001E2C1E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C10224DB13B001E2C1E /* SystemConfiguration.framework */; };
+		606A4C13224DB141001E2C1E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C12224DB141001E2C1E /* CoreTelephony.framework */; };
+		606A4C15224DB147001E2C1E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C14224DB147001E2C1E /* Security.framework */; };
+		606A4C17224DB14E001E2C1E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C16224DB14E001E2C1E /* CFNetwork.framework */; };
+		606A4C1B224DB2B4001E2C1E /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C19224DB2B4001E2C1E /* libWeChatSDK.a */; };
+		606A4C1C224DB2B4001E2C1E /* MKJPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4C1A224DB2B4001E2C1E /* MKJPay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A94A743DD7289DA3059E81C /* Pods-MKJDemoPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKJDemoPay.debug.xcconfig"; path = "Target Support Files/Pods-MKJDemoPay/Pods-MKJDemoPay.debug.xcconfig"; sourceTree = "<group>"; };
+		606A4BE7224DAFC9001E2C1E /* MKJDemoPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKJDemoPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		606A4BEA224DAFC9001E2C1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		606A4BEB224DAFC9001E2C1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		606A4BED224DAFC9001E2C1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		606A4BEE224DAFC9001E2C1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		606A4BF1224DAFC9001E2C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		606A4BF3224DAFCB001E2C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		606A4BF6224DAFCB001E2C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		606A4BF8224DAFCB001E2C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606A4BF9224DAFCC001E2C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		606A4C06224DB121001E2C1E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		606A4C08224DB128001E2C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		606A4C0A224DB12B001E2C1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		606A4C0C224DB132001E2C1E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		606A4C0E224DB135001E2C1E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		606A4C10224DB13B001E2C1E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		606A4C12224DB141001E2C1E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		606A4C14224DB147001E2C1E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		606A4C16224DB14E001E2C1E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		606A4C19224DB2B4001E2C1E /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = MKJDemoPay/MKJPay/libWeChatSDK.a; sourceTree = "<group>"; };
+		606A4C1A224DB2B4001E2C1E /* MKJPay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = MKJPay.a; path = MKJDemoPay/MKJPay/MKJPay.a; sourceTree = "<group>"; };
+		7198030B7683821BDF9BCE1E /* Pods-MKJDemoPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKJDemoPay.release.xcconfig"; path = "Target Support Files/Pods-MKJDemoPay/Pods-MKJDemoPay.release.xcconfig"; sourceTree = "<group>"; };
+		F4A89E893E70A61C6271EEF6 /* Pods_MKJDemoPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKJDemoPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606A4BE4224DAFC9001E2C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A4C1B224DB2B4001E2C1E /* libWeChatSDK.a in Frameworks */,
+				606A4C1C224DB2B4001E2C1E /* MKJPay.a in Frameworks */,
+				606A4C17224DB14E001E2C1E /* CFNetwork.framework in Frameworks */,
+				606A4C15224DB147001E2C1E /* Security.framework in Frameworks */,
+				606A4C13224DB141001E2C1E /* CoreTelephony.framework in Frameworks */,
+				606A4C11224DB13C001E2C1E /* SystemConfiguration.framework in Frameworks */,
+				606A4C0F224DB135001E2C1E /* libz.tbd in Frameworks */,
+				606A4C0D224DB132001E2C1E /* libsqlite3.tbd in Frameworks */,
+				606A4C0B224DB12B001E2C1E /* UIKit.framework in Frameworks */,
+				606A4C09224DB128001E2C1E /* Foundation.framework in Frameworks */,
+				606A4C07224DB121001E2C1E /* libc++.tbd in Frameworks */,
+				4FF79974BE6D62B96ABF8B59 /* Pods_MKJDemoPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35FCA4ACA930AB243E218184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A94A743DD7289DA3059E81C /* Pods-MKJDemoPay.debug.xcconfig */,
+				7198030B7683821BDF9BCE1E /* Pods-MKJDemoPay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		606A4BDE224DAFC9001E2C1E = {
+			isa = PBXGroup;
+			children = (
+				606A4BE9224DAFC9001E2C1E /* MKJDemoPay */,
+				606A4BE8224DAFC9001E2C1E /* Products */,
+				35FCA4ACA930AB243E218184 /* Pods */,
+				D3B350C7C306334E072D1DF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		606A4BE8224DAFC9001E2C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606A4BE7224DAFC9001E2C1E /* MKJDemoPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606A4BE9224DAFC9001E2C1E /* MKJDemoPay */ = {
+			isa = PBXGroup;
+			children = (
+				606A4BEA224DAFC9001E2C1E /* AppDelegate.h */,
+				606A4BEB224DAFC9001E2C1E /* AppDelegate.m */,
+				606A4BED224DAFC9001E2C1E /* ViewController.h */,
+				606A4BEE224DAFC9001E2C1E /* ViewController.m */,
+				606A4BF0224DAFC9001E2C1E /* Main.storyboard */,
+				606A4BF3224DAFCB001E2C1E /* Assets.xcassets */,
+				606A4BF5224DAFCB001E2C1E /* LaunchScreen.storyboard */,
+				606A4BF8224DAFCB001E2C1E /* Info.plist */,
+				606A4BF9224DAFCC001E2C1E /* main.m */,
+			);
+			path = MKJDemoPay;
+			sourceTree = "<group>";
+		};
+		D3B350C7C306334E072D1DF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606A4C19224DB2B4001E2C1E /* libWeChatSDK.a */,
+				606A4C1A224DB2B4001E2C1E /* MKJPay.a */,
+				606A4C16224DB14E001E2C1E /* CFNetwork.framework */,
+				606A4C14224DB147001E2C1E /* Security.framework */,
+				606A4C12224DB141001E2C1E /* CoreTelephony.framework */,
+				606A4C10224DB13B001E2C1E /* SystemConfiguration.framework */,
+				606A4C0E224DB135001E2C1E /* libz.tbd */,
+				606A4C0C224DB132001E2C1E /* libsqlite3.tbd */,
+				606A4C0A224DB12B001E2C1E /* UIKit.framework */,
+				606A4C08224DB128001E2C1E /* Foundation.framework */,
+				606A4C06224DB121001E2C1E /* libc++.tbd */,
+				F4A89E893E70A61C6271EEF6 /* Pods_MKJDemoPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606A4BE6224DAFC9001E2C1E /* MKJDemoPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606A4BFD224DAFCC001E2C1E /* Build configuration list for PBXNativeTarget "MKJDemoPay" */;
+			buildPhases = (
+				5E060C354C2EB5C817DCFE14 /* [CP] Check Pods Manifest.lock */,
+				606A4BE3224DAFC9001E2C1E /* Sources */,
+				606A4BE4224DAFC9001E2C1E /* Frameworks */,
+				606A4BE5224DAFC9001E2C1E /* Resources */,
+				058B201FE002EC72CE7A1A0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKJDemoPay;
+			productName = MKJDemoPay;
+			productReference = 606A4BE7224DAFC9001E2C1E /* MKJDemoPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606A4BDF224DAFC9001E2C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "宓珂璟";
+				TargetAttributes = {
+					606A4BE6224DAFC9001E2C1E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 606A4BE2224DAFC9001E2C1E /* Build configuration list for PBXProject "MKJDemoPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606A4BDE224DAFC9001E2C1E;
+			productRefGroup = 606A4BE8224DAFC9001E2C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606A4BE6224DAFC9001E2C1E /* MKJDemoPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606A4BE5224DAFC9001E2C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A4BF7224DAFCB001E2C1E /* LaunchScreen.storyboard in Resources */,
+				606A4BF4224DAFCB001E2C1E /* Assets.xcassets in Resources */,
+				606A4BF2224DAFC9001E2C1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058B201FE002EC72CE7A1A0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MKJDemoPay/Pods-MKJDemoPay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MKJDemoPay/Pods-MKJDemoPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E060C354C2EB5C817DCFE14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MKJDemoPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606A4BE3224DAFC9001E2C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A4BEF224DAFC9001E2C1E /* ViewController.m in Sources */,
+				606A4BFA224DAFCC001E2C1E /* main.m in Sources */,
+				606A4BEC224DAFC9001E2C1E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		606A4BF0224DAFC9001E2C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606A4BF1224DAFC9001E2C1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		606A4BF5224DAFCB001E2C1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606A4BF6224DAFCB001E2C1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		606A4BFB224DAFCC001E2C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		606A4BFC224DAFCC001E2C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606A4BFE224DAFCC001E2C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A94A743DD7289DA3059E81C /* Pods-MKJDemoPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LLFP9K7Y8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
+					"$(PROJECT_DIR)/MKJDemoPay/MKJPay",
+				);
+				INFOPLIST_FILE = MKJDemoPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MKJDemoPay/MKJPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mikejing.MKJDemoPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		606A4BFF224DAFCC001E2C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7198030B7683821BDF9BCE1E /* Pods-MKJDemoPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LLFP9K7Y8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
+					"$(PROJECT_DIR)/MKJDemoPay/MKJPay",
+				);
+				INFOPLIST_FILE = MKJDemoPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MKJDemoPay/MKJPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mikejing.MKJDemoPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606A4BE2224DAFC9001E2C1E /* Build configuration list for PBXProject "MKJDemoPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A4BFB224DAFCC001E2C1E /* Debug */,
+				606A4BFC224DAFCC001E2C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606A4BFD224DAFCC001E2C1E /* Build configuration list for PBXNativeTarget "MKJDemoPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A4BFE224DAFCC001E2C1E /* Debug */,
+				606A4BFF224DAFCC001E2C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606A4BDF224DAFC9001E2C1E /* Project object */;
+}
