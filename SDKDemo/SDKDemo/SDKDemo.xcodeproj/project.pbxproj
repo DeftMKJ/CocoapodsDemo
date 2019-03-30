@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20BCF65D75F7FAA9B6F78ABE /* Pods_SDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60117089224F7956003A1E05 /* Pods_SDKDemo.framework */; };
+		6011709D224F830E003A1E05 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7746F2248E170000DDE04 /* CFNetwork.framework */; };
+		6011709E224F8316003A1E05 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4B76224CF7BD001E2C1E /* libWeChatSDK.a */; };
+		601170D5224F8B40003A1E05 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B774792248E1AE000DDE04 /* libsqlite3.0.tbd */; };
+		60117109224F935D003A1E05 /* MKJPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117102224F935D003A1E05 /* MKJPay.m */; };
+		6011710A224F935D003A1E05 /* MKJPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117102224F935D003A1E05 /* MKJPay.m */; };
+		6011710B224F935D003A1E05 /* MKJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117105224F935D003A1E05 /* MKJViewController.m */; };
+		6011710C224F935D003A1E05 /* MKJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117105224F935D003A1E05 /* MKJViewController.m */; };
+		6011710D224F935D003A1E05 /* MKJSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117106224F935D003A1E05 /* MKJSDKManager.m */; };
+		6011710E224F935D003A1E05 /* MKJSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117106224F935D003A1E05 /* MKJSDKManager.m */; };
 		606A4BA4224D14E4001E2C1E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC6D552248AEF3008651D8 /* DemoViewController.m */; };
 		606A4BA5224D14E6001E2C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC6D232248AD79008651D8 /* ViewController.m */; };
 		606A4BA6224D159D001E2C1E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7747F2248E1D3000DDE04 /* libc++.tbd */; };
@@ -17,28 +27,27 @@
 		606A4BAB224D15C4001E2C1E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B774752248E18B000DDE04 /* SystemConfiguration.framework */; };
 		606A4BAC224D15CB001E2C1E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B774732248E17F000DDE04 /* CoreTelephony.framework */; };
 		606A4BAD224D15D1001E2C1E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B774712248E178000DDE04 /* Security.framework */; };
-		606A4BAE224D15D4001E2C1E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7746F2248E170000DDE04 /* CFNetwork.framework */; };
-		606A4BAF224D15E2001E2C1E /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4B76224CF7BD001E2C1E /* libWeChatSDK.a */; };
-		606A4BB0224D15F2001E2C1E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B774792248E1AE000DDE04 /* libsqlite3.0.tbd */; };
-		606A4BD5224DA845001E2C1E /* MKJPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BCD224DA845001E2C1E /* MKJPay.m */; };
-		606A4BD6224DA845001E2C1E /* MKJPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BCD224DA845001E2C1E /* MKJPay.m */; };
-		606A4BD7224DA845001E2C1E /* MKJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BD0224DA845001E2C1E /* MKJViewController.m */; };
-		606A4BD8224DA845001E2C1E /* MKJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BD0224DA845001E2C1E /* MKJViewController.m */; };
-		606A4BD9224DA845001E2C1E /* MKJSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BD1224DA845001E2C1E /* MKJSDKManager.m */; };
-		606A4BDA224DA845001E2C1E /* MKJSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A4BD1224DA845001E2C1E /* MKJSDKManager.m */; };
-		606A4C1D224DC895001E2C1E /* libMKJPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A4BC3224DA830001E2C1E /* libMKJPay.a */; };
 		60CC6D212248AD79008651D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC6D202248AD79008651D8 /* AppDelegate.m */; };
 		60CC6D272248AD79008651D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CC6D252248AD79008651D8 /* Main.storyboard */; };
 		60CC6D292248AD7A008651D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CC6D282248AD7A008651D8 /* Assets.xcassets */; };
 		60CC6D2C2248AD7A008651D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CC6D2A2248AD7A008651D8 /* LaunchScreen.storyboard */; };
 		60CC6D2F2248AD7A008651D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC6D2E2248AD7A008651D8 /* main.m */; };
 		60CC6D582248AEF3008651D8 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CC6D562248AEF3008651D8 /* DemoViewController.xib */; };
-		8FAAEA5D9C4528370397D723 /* Pods_MKJPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF006C3DAB6F627186E486 /* Pods_MKJPay.framework */; };
-		CA40FEE7BB2CC94FE4243189 /* Pods_SDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567D59904A4856C9C7C7E3E /* Pods_SDKDemo.framework */; };
+		C0E48D9CCB1310640CD0964B /* Pods_MKJPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF006C3DAB6F627186E486 /* Pods_MKJPay.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		601170F4224F928D003A1E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CC6D142248AD79008651D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 601170D9224F8BE4003A1E05;
+			remoteInfo = MKJPay;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		606A4BC1224DA830001E2C1E /* CopyFiles */ = {
+		601170D8224F8BE4003A1E05 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -50,15 +59,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		60117089224F7956003A1E05 /* Pods_SDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		601170DA224F8BE4003A1E05 /* libMKJPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKJPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60117102224F935D003A1E05 /* MKJPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJPay.m; sourceTree = "<group>"; };
+		60117103224F935D003A1E05 /* MKJPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJPay.h; sourceTree = "<group>"; };
+		60117105224F935D003A1E05 /* MKJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJViewController.m; sourceTree = "<group>"; };
+		60117106224F935D003A1E05 /* MKJSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJSDKManager.m; sourceTree = "<group>"; };
+		60117107224F935D003A1E05 /* MKJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJViewController.h; sourceTree = "<group>"; };
+		60117108224F935D003A1E05 /* MKJSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJSDKManager.h; sourceTree = "<group>"; };
 		606A4B76224CF7BD001E2C1E /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = Weixin/libWeChatSDK.a; sourceTree = "<group>"; };
 		606A4B9A224D134F001E2C1E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		606A4BC3224DA830001E2C1E /* libMKJPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKJPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		606A4BCD224DA845001E2C1E /* MKJPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJPay.m; sourceTree = "<group>"; };
-		606A4BCE224DA845001E2C1E /* MKJPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJPay.h; sourceTree = "<group>"; };
-		606A4BD0224DA845001E2C1E /* MKJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJViewController.m; sourceTree = "<group>"; };
-		606A4BD1224DA845001E2C1E /* MKJSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJSDKManager.m; sourceTree = "<group>"; };
-		606A4BD3224DA845001E2C1E /* MKJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJViewController.h; sourceTree = "<group>"; };
-		606A4BD4224DA845001E2C1E /* MKJSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJSDKManager.h; sourceTree = "<group>"; };
 		606A4BDC224DA991001E2C1E /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B7746F2248E170000DDE04 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		60B774712248E178000DDE04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -93,11 +103,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		606A4BC0224DA830001E2C1E /* Frameworks */ = {
+		601170D7224F8BE4003A1E05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FAAEA5D9C4528370397D723 /* Pods_MKJPay.framework in Frameworks */,
+				C0E48D9CCB1310640CD0964B /* Pods_MKJPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,9 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606A4C1D224DC895001E2C1E /* libMKJPay.a in Frameworks */,
-				606A4BAF224D15E2001E2C1E /* libWeChatSDK.a in Frameworks */,
-				606A4BAE224D15D4001E2C1E /* CFNetwork.framework in Frameworks */,
+				601170D5224F8B40003A1E05 /* libsqlite3.0.tbd in Frameworks */,
+				6011709E224F8316003A1E05 /* libWeChatSDK.a in Frameworks */,
+				6011709D224F830E003A1E05 /* CFNetwork.framework in Frameworks */,
 				606A4BAD224D15D1001E2C1E /* Security.framework in Frameworks */,
 				606A4BAC224D15CB001E2C1E /* CoreTelephony.framework in Frameworks */,
 				606A4BAB224D15C4001E2C1E /* SystemConfiguration.framework in Frameworks */,
@@ -115,32 +125,31 @@
 				606A4BA9224D15B7001E2C1E /* libsqlite3.tbd in Frameworks */,
 				606A4BA8224D15B0001E2C1E /* UIKit.framework in Frameworks */,
 				606A4BA7224D15AC001E2C1E /* Foundation.framework in Frameworks */,
-				606A4BB0224D15F2001E2C1E /* libsqlite3.0.tbd in Frameworks */,
 				606A4BA6224D159D001E2C1E /* libc++.tbd in Frameworks */,
-				CA40FEE7BB2CC94FE4243189 /* Pods_SDKDemo.framework in Frameworks */,
+				20BCF65D75F7FAA9B6F78ABE /* Pods_SDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		606A4BCC224DA845001E2C1E /* MKJSDK */ = {
+		60117101224F935D003A1E05 /* MKJSDK */ = {
 			isa = PBXGroup;
 			children = (
-				606A4BCD224DA845001E2C1E /* MKJPay.m */,
-				606A4BCE224DA845001E2C1E /* MKJPay.h */,
-				606A4BCF224DA845001E2C1E /* VC */,
+				60117102224F935D003A1E05 /* MKJPay.m */,
+				60117103224F935D003A1E05 /* MKJPay.h */,
+				60117104224F935D003A1E05 /* VC */,
 			);
 			path = MKJSDK;
 			sourceTree = "<group>";
 		};
-		606A4BCF224DA845001E2C1E /* VC */ = {
+		60117104224F935D003A1E05 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				606A4BD0224DA845001E2C1E /* MKJViewController.m */,
-				606A4BD1224DA845001E2C1E /* MKJSDKManager.m */,
-				606A4BD3224DA845001E2C1E /* MKJViewController.h */,
-				606A4BD4224DA845001E2C1E /* MKJSDKManager.h */,
+				60117105224F935D003A1E05 /* MKJViewController.m */,
+				60117106224F935D003A1E05 /* MKJSDKManager.m */,
+				60117107224F935D003A1E05 /* MKJViewController.h */,
+				60117108224F935D003A1E05 /* MKJSDKManager.h */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -159,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				60CC6D1C2248AD79008651D8 /* SDKDemo.app */,
-				606A4BC3224DA830001E2C1E /* libMKJPay.a */,
+				601170DA224F8BE4003A1E05 /* libMKJPay.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,7 +176,7 @@
 		60CC6D1E2248AD79008651D8 /* SDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				606A4BCC224DA845001E2C1E /* MKJSDK */,
+				60117101224F935D003A1E05 /* MKJSDK */,
 				60CC6D1F2248AD79008651D8 /* AppDelegate.h */,
 				60CC6D202248AD79008651D8 /* AppDelegate.m */,
 				60CC6D542248AEF3008651D8 /* DemoViewController.h */,
@@ -198,6 +207,7 @@
 		DFB0AB43CBE0F8584F31D05C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60117089224F7956003A1E05 /* Pods_SDKDemo.framework */,
 				606A4BDC224DA991001E2C1E /* Masonry.framework */,
 				606A4B9A224D134F001E2C1E /* libsqlite3.tbd */,
 				606A4B76224CF7BD001E2C1E /* libWeChatSDK.a */,
@@ -221,14 +231,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		606A4BC2224DA830001E2C1E /* MKJPay */ = {
+		601170D9224F8BE4003A1E05 /* MKJPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 606A4BCB224DA830001E2C1E /* Build configuration list for PBXNativeTarget "MKJPay" */;
+			buildConfigurationList = 601170E0224F8BE5003A1E05 /* Build configuration list for PBXNativeTarget "MKJPay" */;
 			buildPhases = (
-				20F861FE8A3DEC402C8E2C97 /* [CP] Check Pods Manifest.lock */,
-				606A4BBF224DA830001E2C1E /* Sources */,
-				606A4BC0224DA830001E2C1E /* Frameworks */,
-				606A4BC1224DA830001E2C1E /* CopyFiles */,
+				2AE2DED6F3DB6B37BEA198D1 /* [CP] Check Pods Manifest.lock */,
+				601170D6224F8BE4003A1E05 /* Sources */,
+				601170D7224F8BE4003A1E05 /* Frameworks */,
+				601170D8224F8BE4003A1E05 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -236,7 +246,7 @@
 			);
 			name = MKJPay;
 			productName = MKJPay;
-			productReference = 606A4BC3224DA830001E2C1E /* libMKJPay.a */;
+			productReference = 601170DA224F8BE4003A1E05 /* libMKJPay.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		60CC6D1B2248AD79008651D8 /* SDKDemo */ = {
@@ -252,6 +262,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				601170F5224F928D003A1E05 /* PBXTargetDependency */,
 			);
 			name = SDKDemo;
 			productName = SDKDemo;
@@ -268,7 +279,7 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "宓珂璟";
 				TargetAttributes = {
-					606A4BC2224DA830001E2C1E = {
+					601170D9224F8BE4003A1E05 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					60CC6D1B2248AD79008651D8 = {
@@ -290,7 +301,7 @@
 			projectRoot = "";
 			targets = (
 				60CC6D1B2248AD79008651D8 /* SDKDemo */,
-				606A4BC2224DA830001E2C1E /* MKJPay */,
+				601170D9224F8BE4003A1E05 /* MKJPay */,
 			);
 		};
 /* End PBXProject section */
@@ -332,7 +343,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		20F861FE8A3DEC402C8E2C97 /* [CP] Check Pods Manifest.lock */ = {
+		2AE2DED6F3DB6B37BEA198D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,13 +390,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		606A4BBF224DA830001E2C1E /* Sources */ = {
+		601170D6224F8BE4003A1E05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606A4BDA224DA845001E2C1E /* MKJSDKManager.m in Sources */,
-				606A4BD8224DA845001E2C1E /* MKJViewController.m in Sources */,
-				606A4BD6224DA845001E2C1E /* MKJPay.m in Sources */,
+				6011710E224F935D003A1E05 /* MKJSDKManager.m in Sources */,
+				6011710A224F935D003A1E05 /* MKJPay.m in Sources */,
+				6011710C224F935D003A1E05 /* MKJViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +405,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				606A4BA4224D14E4001E2C1E /* DemoViewController.m in Sources */,
-				606A4BD7224DA845001E2C1E /* MKJViewController.m in Sources */,
-				606A4BD5224DA845001E2C1E /* MKJPay.m in Sources */,
-				606A4BD9224DA845001E2C1E /* MKJSDKManager.m in Sources */,
+				6011710B224F935D003A1E05 /* MKJViewController.m in Sources */,
+				60117109224F935D003A1E05 /* MKJPay.m in Sources */,
+				6011710D224F935D003A1E05 /* MKJSDKManager.m in Sources */,
 				60CC6D2F2248AD7A008651D8 /* main.m in Sources */,
 				606A4BA5224D14E6001E2C1E /* ViewController.m in Sources */,
 				60CC6D212248AD79008651D8 /* AppDelegate.m in Sources */,
@@ -404,6 +415,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		601170F5224F928D003A1E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 601170D9224F8BE4003A1E05 /* MKJPay */;
+			targetProxy = 601170F4224F928D003A1E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		60CC6D252248AD79008651D8 /* Main.storyboard */ = {
@@ -425,12 +444,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		606A4BC9224DA830001E2C1E /* Debug */ = {
+		601170E1224F8BE5003A1E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1860D8841944781E0CD20AC /* Pods-MKJPay.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"${PROJECT_DIR}/Weixin",
 					"$(inherited)",
@@ -449,12 +467,11 @@
 			};
 			name = Debug;
 		};
-		606A4BCA224DA830001E2C1E /* Release */ = {
+		601170E2224F8BE5003A1E05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5D1A48F1F6649F734F337E5 /* Pods-MKJPay.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"${PROJECT_DIR}/Weixin",
 					"$(inherited)",
@@ -592,10 +609,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LLFP9K7Y8;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
-					"${PROJECT_DIR}/Weixin",
+					"${PROJECT_DIR}/Weixin/**",
 				);
 				INFOPLIST_FILE = SDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -605,7 +623,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Weixin",
+					"$(PROJECT_DIR)/Weixin/**",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -619,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Mikejing.SDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Weixin";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -630,10 +648,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LLFP9K7Y8;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
-					"${PROJECT_DIR}/Weixin",
+					"${PROJECT_DIR}/Weixin/**",
 				);
 				INFOPLIST_FILE = SDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -643,7 +662,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Weixin",
+					"$(PROJECT_DIR)/Weixin/**",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -657,18 +676,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Mikejing.SDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Weixin";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		606A4BCB224DA830001E2C1E /* Build configuration list for PBXNativeTarget "MKJPay" */ = {
+		601170E0224F8BE5003A1E05 /* Build configuration list for PBXNativeTarget "MKJPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				606A4BC9224DA830001E2C1E /* Debug */,
-				606A4BCA224DA830001E2C1E /* Release */,
+				601170E1224F8BE5003A1E05 /* Debug */,
+				601170E2224F8BE5003A1E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
