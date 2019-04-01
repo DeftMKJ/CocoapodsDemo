@@ -17,6 +17,7 @@
 		6011710C224F935D003A1E05 /* MKJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117105224F935D003A1E05 /* MKJViewController.m */; };
 		6011710D224F935D003A1E05 /* MKJSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117106224F935D003A1E05 /* MKJSDKManager.m */; };
 		6011710E224F935D003A1E05 /* MKJSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60117106224F935D003A1E05 /* MKJSDKManager.m */; };
+		6011711422521BAB003A1E05 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6011711322521BAB003A1E05 /* Masonry.framework */; };
 		606A4BA4224D14E4001E2C1E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC6D552248AEF3008651D8 /* DemoViewController.m */; };
 		606A4BA5224D14E6001E2C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC6D232248AD79008651D8 /* ViewController.m */; };
 		606A4BA6224D159D001E2C1E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7747F2248E1D3000DDE04 /* libc++.tbd */; };
@@ -67,6 +68,7 @@
 		60117106224F935D003A1E05 /* MKJSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJSDKManager.m; sourceTree = "<group>"; };
 		60117107224F935D003A1E05 /* MKJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJViewController.h; sourceTree = "<group>"; };
 		60117108224F935D003A1E05 /* MKJSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJSDKManager.h; sourceTree = "<group>"; };
+		6011711322521BAB003A1E05 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		606A4B76224CF7BD001E2C1E /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = Weixin/libWeChatSDK.a; sourceTree = "<group>"; };
 		606A4B9A224D134F001E2C1E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		606A4BDC224DA991001E2C1E /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6011711422521BAB003A1E05 /* Masonry.framework in Frameworks */,
 				601170D5224F8B40003A1E05 /* libsqlite3.0.tbd in Frameworks */,
 				6011709E224F8316003A1E05 /* libWeChatSDK.a in Frameworks */,
 				6011709D224F830E003A1E05 /* CFNetwork.framework in Frameworks */,
@@ -136,8 +139,8 @@
 		60117101224F935D003A1E05 /* MKJSDK */ = {
 			isa = PBXGroup;
 			children = (
-				60117102224F935D003A1E05 /* MKJPay.m */,
 				60117103224F935D003A1E05 /* MKJPay.h */,
+				60117102224F935D003A1E05 /* MKJPay.m */,
 				60117104224F935D003A1E05 /* VC */,
 			);
 			path = MKJSDK;
@@ -207,6 +210,7 @@
 		DFB0AB43CBE0F8584F31D05C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6011711322521BAB003A1E05 /* Masonry.framework */,
 				60117089224F7956003A1E05 /* Pods_SDKDemo.framework */,
 				606A4BDC224DA991001E2C1E /* Masonry.framework */,
 				606A4B9A224D134F001E2C1E /* libsqlite3.tbd */,
@@ -541,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -594,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
