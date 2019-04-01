@@ -2,6 +2,8 @@
 [SDK开发之环境变量和Xcode参数介绍](https://blog.csdn.net/Deft_MKJing/article/details/88783860)
 </br>
 [SDK开发之Cocoapods详细原理以及环境变量记录](https://blog.csdn.net/Deft_MKJing/article/details/88869653)
+</br>
+[SDK开发之互相依赖的静态库制作Demo](https://blog.csdn.net/Deft_MKJing/article/details/88948519)
 
 # 工程目录介绍
 ## Cocoapods 
